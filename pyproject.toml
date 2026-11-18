@@ -1,0 +1,19 @@
+[project]
+name = "handwriting-to-docx"
+version = "0.1.0"
+description = "Photo of handwriting (Vietnamese + English) -> editable .docx, with CER/WER evaluation"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "opencv-python-headless>=4.9",
+    "pillow>=10.0",
+    "python-docx>=1.1",
+    "ollama>=0.3.0",
+    "streamlit>=1.38.0",
+    "rich>=13.0.0",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.idea/
+.pytest_cache/
+
+# Data and outputs stay local (photos may be personal)
+data/samples/*
+data/eval/*
+outputs/*
+!data/samples/.gitkeep
+!data/eval/.gitkeep
+!outputs/.gitkeep
+*.log
+
+# Personal study notes & journal (DO NOT PUSH)
+docs/
+*JOURNAL*
+*journal*
