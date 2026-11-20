@@ -9,6 +9,8 @@ __pycache__/
 # Data and outputs stay local (photos may be personal)
 data/samples/*
 data/eval/*
+data/htr/
+checkpoints/
 outputs/*
 !data/samples/.gitkeep
 !data/eval/.gitkeep
